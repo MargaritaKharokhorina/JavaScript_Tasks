@@ -1,8 +1,31 @@
-function sum(a, b) {
-    return a + b; 
-}
+//function sum(a, b) {
+    //return a + b; 
+//}
 
-const firstNum = Number.parseFloat(prompt("Введите первое число:"));
-const secondNum = +prompt("Введите второе число:");
+//const firstNum = Number.parseFloat(prompt("Введите первое число:"));
+//const secondNum = +prompt("Введите второе число:");
 //alert(`Результат сложения чисел ${firstNum} и ${secondNum} = ${firstNum + secondNum}`);
-alert(`Сумма чисел ${firstNum} и ${secondNum} = ${sum(firstNum, secondNum)}`);
+//alert(`Сумма чисел ${firstNum} и ${secondNum} = ${sum(firstNum, secondNum)}`);
+
+//Написать функцию, которая принимает имя пользователя при ее вызове 
+//и выводит сообщение с приветствием пользователя по имени в консоль.  
+//Проверить работоспособность функции.
+
+//let userName = prompt("Введите имя:");
+//helloUser(userName);
+
+//function helloUser(name) {
+    //alert(`Hello, ${name}`); //console.log вместо alert
+
+//}
+
+//вывести на экран в диалоговом окне текст с сообщением “Вам хорошо живется?”
+//и кнопками «ОК», «Отмена», для чего необходимо использовать confirm.
+//- При нажатии на кнопку “ОК” вывести в диалоговом окне текст с сообщением “Тогда мы идем к вам!”.
+//- При нажатии на кнопку “Отмена” вывести в диалоговом окне текст с сообщением “Ну вы держитесь там!”.
+
+if(confirm("Вам хорошо живется?")) {
+    alert("Тогда мы идем к вам!");
+} else {
+    alert("Ну вы держитесь там!");
+}
