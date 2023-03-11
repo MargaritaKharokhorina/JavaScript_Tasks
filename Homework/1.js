@@ -6,9 +6,9 @@
 // градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
 // Примечание: Пользователь всегда вводит корректное число.
 
-let tempC = Number.parseFloat(prompt("Введите значение температуры в градусах Цельсия:"));
-let tempF = (9 / 5) * tempC + 32;
-console.log(tempC.toFixed());
-console.log(tempF.toFixed()); // округляем до целого числа, т.к. в нашем случае параметр () пустой 
+const tempC = Number.parseFloat(prompt("Введите значение температуры в градусах Цельсия:"));
+const tempF = (9 / 5) * tempC + 32;
+//console.log(tempC.toFixed());
+//console.log(tempF.toFixed()); // округляем до целого числа, т.к. в нашем случае параметр () пустой 
                               
-alert(`Цельсий: ${tempC}, Фаренгейт: ${tempF}`); 
+alert(`Цельсий: ${tempC.toFixed()}, Фаренгейт: ${tempF.toFixed()}`); 
